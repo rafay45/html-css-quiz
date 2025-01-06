@@ -41,3 +41,10 @@ h1{
 .button-3:hover{
     background-color: #8B0000;
 }
+p{
+    color: #8B0000;
+}
+.contact-info{
+    margin-top: 100px;
+    background-color: rgb(218, 218, 218);
+}
