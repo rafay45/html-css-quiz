@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 248, 236);
+}
+h1{
+    color:#8B0000;
+}
+.nav{
+    border-bottom: 2px solid black;
+}
+.button{
+    width: 100px;
+    border-radius: 30px;
+}
+.button-1{
+    width: 300px;
+    border-radius: 80px;
+    height: 50px;
+}
+.button-2{
+    width: 300px;
+    border-radius: 80px;
+    height: 50px;
+    border:1px solid #8B0000;
+}
+.img{
+    width: 750px;
+}
+.card{
+    border-radius: 20px ;
+}
+.button-3{
+    border:1px solid #8B0000;
+    border-radius: 80px;
+}
