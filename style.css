@@ -1,50 +1,73 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(255, 248, 236);
 }
-h1{
+
+h1 {
     font-weight: 1000;
-    color:#8B0000;
+    color: #8B0000;
 }
-.nav{
+
+.nav {
     border-bottom: 2px solid #8B0000;
 }
-.button{
+
+.button {
     width: 100px;
     border-radius: 30px;
 }
-.button-1{
+
+.button-1 {
     width: 300px;
     border-radius: 80px;
     height: 50px;
 }
-.button-2{
+
+.button-2 {
     width: 300px;
     border-radius: 80px;
     height: 50px;
-    border:1px solid #8B0000;
+    border: 1px solid #8B0000;
 }
-.img{
+
+.img {
     width: 700px;
 }
-.card{
-    border-radius: 20px ;
-}
-.button-3{
-    border:1px solid #8B0000;
+
+.button-3 {
+    border: 1px solid #8B0000;
     border-radius: 80px;
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
 }
-.button-3:hover{
+
+.button-3:hover {
     background-color: #8B0000;
 }
-p{
+
+p {
     color: #8B0000;
 }
-.contact-info{
+
+.contact-info {
     margin-top: 100px;
     background-color: rgb(218, 218, 218);
+    width: 100%;
+}
+
+.card {
+    height: 30em;
+    border-radius: 15px;
+}
+
+.card>img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
